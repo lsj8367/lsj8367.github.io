@@ -1,16 +1,16 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
-
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: 토이 프로젝트
+  role: 기상예보 시스템 - 프론트엔드 비즈니스 로직 구현
+  duration: 2021년 2월 &mdash; 2021년 3월
+  url: "https://github.com/lsj8367/Project"
+  description: 입사해서 입사동기 두명과 함께 만든 기상예보 시스템입니다. 저는 mvc비즈니스 로직을 사용하여 db의 자료들을 최종적으로 가공하여 view단으로 데이터를 넘겨주었습니다. <br> 사용한 기술 스택 - Java/JSP, Spring, MariaDB
+
+- project: 네책내책
+  role: 구매 메인페이지, 대여 메인페이지, 대여하기 페이지 구현
+  duration: 2020년 10월 &mdash; Present
+  url: "https://github.com/lsj8367/Project"
+  description: 학원에서 진행했던 프로젝트입니다. 중고 책의 순환을 위한 대여, 기증 서비스 그리고 새 책까지 구매할 수 있는 코로나에 대비한 온라인 서점을 계획하게 되었습니다. <br>프로젝트 명을 클릭하시면 ppt 및 소스를 보실 수 있습니다. 
+

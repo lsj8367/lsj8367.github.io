@@ -1,13 +1,18 @@
 # Degree
-- degree: Bachelor of Arts, Human Rights
-  uni: Yale University
-  year: 2004 &mdash; 2008
-  awards:
-    - award: Summa Cumme Laude graduate
-  summary: If you had any meaningful roles at college, feel free to write about them here
+- degree: 컴퓨터공학과
+  uni: 국가평생교육진흥원 학점은행
+  year: 2020년 4월 &mdash; 2021년 7월
+  # awards:
+    # - award: Summa Cumme Laude graduate
+  summary: 학사취득을 위하여 회사를 다니며 학습을 병행하였습니다. 일에 지장없이 이수 하였으며 여기서 배운 과목들은 알고리즘, C언어, 자료구조, 소프트웨어 공학 등 기초 CS 전공지식을 배웠습니다. 산업기사를 취득하였지만 학사 취득으로 인해 기사자격증도 준비중에 있습니다.
 
-- degree: High School Diploma
-  uni: Springfield High School
-  year: 2004
-  award: Most likely to succeed
-  summary: You can choose to have either a single or multiple awards
+- degree: 클라우드 기반의 자바 응용 및 빅데이터 분석
+  uni: KIC캠퍼스
+  year: 2020년 7월 &mdash; 2020년 12월
+  summary: 자바를 혼자 공부하다가 조금 더 넓은 환경에서 한층 더 실력을 키우고 싶어서 국비지원 학원을 들어가게 되었습니다. 배웠던 것은 Java/Spring, sql, html/css, javascript, jsp가 있습니다.
+
+- degree: 기계자동화과
+  uni: 경기과학기술대학교
+  year: 2014년 3월 &mdash; 2019년 2월
+  award: 아누이노를 활용한 스마트 방범용 도어락 - 금상
+  summary: 전공은 기계지만 여기서 C#과 C언어에 대해 학습하였으며, 매트랩을 활용한 기초 프로그래밍을 학습하여 지금의 개발분야에 흥미를 갖게 되었습니다.

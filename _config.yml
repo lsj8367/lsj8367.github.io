@@ -11,7 +11,7 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "이승재"
-resume_title:                   "VP of Global Communications"
+resume_title:                   "기록을 많이 하려고 하는 개발자"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "dyctdy@gmail.com"
@@ -23,7 +23,11 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>저는 백엔드에 관심이 있는 주니어 개발자 이승재입니다.
+                        모르는 것은 찾아보며 학습하고 습득한 내용들을 블로그에 차곡차곡 쌓아올리는
+                        기록을 많이하고 있습니다. 한달에 한 권 책 읽기를 통해서 제 기술 발전에 큰 기여를
+                        하고 있습니다. 항상 개발을 함에 있어서 클린코드를 지향하며 코드리뷰하는 것을 적극적으로 임하려는 자세가 언제든 되어있습니다.<br>
+                        <a href='https://velog.io/@lsj8367'>블로그 바로가기</a></p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -37,22 +41,22 @@ resume_section_experience:      true
 resume_section_education:       true
 resume_section_projects:        true
 resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
+resume_section_recognition:     false # recognition.yml
+resume_section_links:           false # links.yml
+resume_section_associations:    false # association.yml
 # resume_section_interests:       true
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/lsj8367"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
+  # resume_twitter_url:           "http://twitter.com/jglovier"
+  # resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
+  # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
-  resume_medium_url:            "https://medium.com/@jglovier"
+  # resume_website_url:           "http://joelglovier.com"
+  # resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
 # Design settings

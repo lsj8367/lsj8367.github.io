@@ -26,8 +26,8 @@ display_header_contact_info:    "false"
 resume_header_intro: "<p>저는 백엔드에 관심이 있는 주니어 개발자 이승재입니다.
                         모르는 것은 찾아보며 학습하고 습득한 내용들을 블로그에 차곡차곡 쌓아올리는
                         기록을 많이하고 있습니다. 한달에 한 권 책 읽기를 통해서 제 기술 발전에 큰 기여를
-                        하고 있습니다. 항상 개발을 함에 있어서 클린코드를 지향하며 코드리뷰하는 것을 적극적으로 임하려는 자세가 언제든 되어있습니다.<br>
-                        <a href='https://velog.io/@lsj8367'>블로그 바로가기</a></p>"
+                        하고 있습니다. 항상 개발을 함에 있어서 클린코드를 지향하며 코드리뷰하는 것을 적극적으로 임하려는 자세가 언제든 되어있습니다.
+                        </p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,

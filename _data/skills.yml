@@ -1,12 +1,15 @@
 # Skills
-# Organizational leadership
-- skill: 사람들과의 팀워크 및 협업
-  description: 학원에서 프로젝트를 진행했을 때 첫 프로젝트의 아쉬운점이 소스관리 였는데 git을 통해서 압축파일을 옮겨서 일일이 관리하는 수고를 덜게 되어 개발 시간이 단축되었습니다. 이처럼 어떠한 기술을 배운다면 무엇보다 항상 동료 그리고 팀을 생각하며 함께 성장하는 그런 개발자가 될 준비를 마쳤습니다.
+- skill: Back-End
+  description: Java, Spring, SpringBoot, JPA, Junit5, Maven, Gradle
 
-# Communications strategy
-# - skill: Communications strategy
-  # description: Content and marketing strategy,
+- skill: Front-End
+  description: HTML/CSS, Javascript, jQuery
 
-# Digital content development and creation
-# - skill: Digital content development and creation
-#   description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Database
+  description: MariaDB, MySQL, Oracle
+
+- skill: Others
+  description: Git & GitHub, Jira, SVN
+
+- skill: Tools
+  description: IntelliJ, Eclipse, Visual Studio Code

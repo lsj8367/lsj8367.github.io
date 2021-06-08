@@ -1,6 +1,6 @@
 # Skills
 - skill: Back-End
-  description: Java, Spring, SpringBoot, JPA, Junit5, Maven, Gradle
+  description: Java, Spring, SpringBoot, JPA, MyBatis, IBatis, Junit5, Maven, Gradle
 
 - skill: Front-End
   description: HTML/CSS, Javascript, jQuery
@@ -9,7 +9,7 @@
   description: MariaDB, MySQL, Oracle
 
 - skill: Others
-  description: Git & GitHub, Jira, SVN
+  description: Git & GitHub, Jira, Confluence, SVN, Linux, GCP
 
 - skill: Tools
   description: IntelliJ, Eclipse, Visual Studio Code

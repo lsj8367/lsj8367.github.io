@@ -1,6 +1,6 @@
 # Site settings
 title: "주니어 백엔드 개발자 이승재"
-description: "A resume template for Jekyll and GitHub Pages sites."
+description: "이력서"
 
 # Build settings
 markdown: kramdown
@@ -11,22 +11,22 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "이승재"
-resume_title:                   "기록을 많이 하려고 하는 개발자"
+resume_title:                   "기록을 많이 하는 개발자"
 
 # used for the contact button in _layouts/resume.html
 resume_contact_email:           "dyctdy@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
 resume_contact_telephone:       "010-8831-8367"
-resume_contact_address:         "경기도 부천시 작동로50번길 10"
+# resume_contact_address:         "경기도 부천시 작동로50번길 10"
 
-resume_header_contact_info:     "010-8831-8367 • dyctdy@gmail.com" # 경기도 부천시 작동로50번길 10 • 
+resume_header_contact_info:     "010-8831-8367 • dyctdy@gmail.com"
 display_header_contact_info:    "false"
 
 resume_header_intro: "<p>저는 백엔드에 관심이 있는 주니어 개발자 이승재입니다.
-                        모르는 것은 찾아보며 학습하고 습득한 내용들을 블로그에 차곡차곡 쌓아올리는
-                        기록을 많이하고 있습니다. 한달에 한 권 책 읽기를 통해서 제 기술 발전에 큰 기여를
-                        하고 있습니다. 항상 개발을 함에 있어서 클린코드를 지향하며 코드리뷰하는 것을 적극적으로 임하려는 자세가 언제든 되어있습니다.
+                        모르는 것은 찾아보며 학습하고 습득한 내용들을 블로그에 기록을 많이하고 있습니다.
+                        한달에 한 권 책 읽기를 시작하여 제 기술 발전에 큰 기여를 하고 있습니다.
+                        항상 개발을 함에 있어서 클린코드를 지향하며 코드리뷰하는 것을 적극적으로 임하려는 자세가 언제든 되어있습니다.
                         </p>"
 
 # use "yes" to display the email contact button,
@@ -43,8 +43,8 @@ resume_section_projects:        true
 resume_section_skills:          true
 resume_section_recognition:     false # recognition.yml
 resume_section_links:           false # links.yml
-resume_section_associations:    false # association.yml
-# resume_section_interests:       true
+resume_section_associations:    true # association.yml
+resume_section_interests:       false # interests.yml
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL

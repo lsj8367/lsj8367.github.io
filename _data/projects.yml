@@ -5,7 +5,7 @@
 # 사용한 기술 스택 - Java, JSP, Oracle, MySql(MariaDB), Jira, SVN, Git <ul class="resume-item-list"> <li>상수도사업부 관망관리 시스템</li> <li>프론트엔드와 백엔드 구분 없이 개발</li> </ul>
 - project: 인천 상수도 관망관리 시스템
   role: 수운영관리 고도화 시스템 및 모식도 편집
-  duration: 2021년 6월 &mdash; 현재
+  duration: 2021년 4월 &mdash; 현재
   # url: ""
   description: 첫 실무 프로젝트 입니다. 보안상의 이유로 내부망에서 SVN을 사용하여 작업했습니다. Jira를 통한 이슈 관리도 진행하였습니다.<br> 사용한 기술스택 - Java1.8, Spring, iBatis, Oracle, MariaDB, Javascript ES5
 

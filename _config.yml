@@ -43,7 +43,7 @@ resume_section_projects:        true
 resume_section_skills:          true
 resume_section_recognition:     false # recognition.yml
 resume_section_links:           false # links.yml
-resume_section_associations:    false # association.yml
+resume_section_associations:    true # association.yml
 resume_section_interests:       false # interests.yml
 
 # Resume social links

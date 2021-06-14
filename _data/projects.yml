@@ -4,17 +4,17 @@
 # Springfield Community Outreach Group
 # 사용한 기술 스택 - Java, JSP, Oracle, MySql(MariaDB), Jira, SVN, Git <ul class="resume-item-list"> <li>상수도사업부 관망관리 시스템</li> <li>프론트엔드와 백엔드 구분 없이 개발</li> </ul>
 - project: 인천 상수도 관망관리 시스템
-  role: 수운영관리 고도화 시스템 및 모식도 편집
+  role: 수운영관리 고도화 시스템 구축
   duration: 2021년 4월 &mdash; 현재
   # url: ""
-  description: 첫 실무 프로젝트 입니다. 보안상의 이유로 내부망에서 SVN을 사용하여 작업했습니다. Jira를 통한 이슈 관리도 진행하였습니다.<br> 사용한 기술스택 - Java1.8, Spring, iBatis, Oracle, MariaDB, Javascript ES5
+  description: 첫 실무 프로젝트 입니다. 소프트웨어 생명주기대로 프로젝트가 진행되는 것을 경험.<br> 사용한 기술스택 - Java1.8, Spring, iBatis, Oracle, MariaDB, Javascript ES5
 
 
 - project: 기상예보 시스템 
   role: 서버단 비즈니스 로직 구현
   duration: 2021년 2월 &mdash; 2021년 3월
   url: "https://github.com/lsj8367/Project"
-  description: 입사해서 입사동기 두명과 함께 만든 기상예보 시스템입니다. 저는 mvc비즈니스 로직을 사용하여 db의 자료들을 최종적으로 가공하여 view단으로 데이터를 넘겨주었습니다. <br> 사용한 기술 스택 - Java/JSP, Spring, MariaDB <br>프로젝트 명을 클릭하시면 ppt 및 소스를 보실 수 있습니다. 
+  description: 입사해서 입사동기 두명과 함께 만든 기상예보 시스템입니다. 추가적으로 더 공부하면서 구글 클라우드 플랫폼인 GCP 콘솔에서 war파일 배포를 혼자 진행하였습니다.<br> 사용한 기술 스택 - Java/JSP, Spring, MariaDB <br>프로젝트 명을 클릭하시면 ppt 및 소스를 보실 수 있습니다. 
 
 - project: 네책내책
   role: 구매 메인페이지, 대여 메인페이지, 대여하기 페이지 구현

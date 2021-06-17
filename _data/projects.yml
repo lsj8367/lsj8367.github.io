@@ -13,7 +13,7 @@
   role: 수운영관리 고도화 시스템 구축
   duration: 2021년 4월 &mdash; 2021년 6월
   # url: ""
-  description: 첫 실무 프로젝트 입니다. 소프트웨어 생명주기대로 프로젝트가 진행되는 것을 경험.<br> 사용한 기술스택 - Java1.8, Spring, iBatis, Oracle, MariaDB, Javascript ES5
+  description: 첫 실무 프로젝트 입니다. 소프트웨어 생명주기대로 프로젝트가 진행되는 것을 경험<br> 사용한 기술스택 - Java1.8, Spring, iBatis, Oracle, MariaDB, Javascript ES5
 
 
 - project: 기상예보 시스템 
@@ -21,6 +21,12 @@
   duration: 2021년 2월 &mdash; 2021년 3월
   url: "https://github.com/lsj8367/Project/tree/master/innodale-weather-front"
   description: 입사해서 입사동기 두명과 함께 만든 기상예보 시스템입니다. 추가적으로 더 공부하면서 구글 클라우드 플랫폼인 GCP 콘솔에서 war파일 배포를 혼자 진행하였습니다.<br> 사용한 기술 스택 - Java/JSP, Spring, MariaDB <br>프로젝트 명을 클릭하시면 ppt 및 소스를 보실 수 있습니다. 
+
+- project: 개인 맞춤 여행지 추천
+  role: Python/Django를 이용한 프로젝트
+  duration: 2020년 12월
+  url: "https://github.com/lsj8367/team3project"
+  description: 학원에서 진행했던 프로젝트입니다. Django로 데이터분석을 실시하여 개인 맞춤 여행지 추천을 진행했습니다. Git에 대해 배운 내용을 다른 팀원들에게 공유하고 Git을 쓸수있게 도와주었습니다.<br> Django ORM을 사용하여 MTV패턴으로 웹을 구현하였습니다. <br> 사용한 기술 스택 - Python, Django, Tensorflow, html/css
 
 - project: 네책내책
   role: 구매 메인페이지, 대여 메인페이지, 대여하기 페이지 구현

@@ -21,7 +21,7 @@ resume_contact_telephone:       "010-8831-8367"
 # resume_contact_address:         "경기도 부천시 작동로50번길 10"
 
 resume_header_contact_info:     "010-8831-8367 • dyctdy@gmail.com"
-display_header_contact_info:    "false"
+display_header_contact_info:    "true" # 전화번호, 메일 공개여부
 
 resume_header_intro: "<p>저는 백엔드에 관심이 있는 주니어 개발자 이승재입니다.
                         모르는 것은 찾아보며 학습하고 습득한 내용들을 블로그에 기록을 많이하고 있습니다.

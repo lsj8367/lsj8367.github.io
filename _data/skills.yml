@@ -1,6 +1,6 @@
 # Skills
 - skill: Back-End
-  description: Java, Spring, Spring MVC, SpringBoot, JPA, MyBatis, iBatis, Junit5, Maven, Gradle, Django, Python
+  description: Java, Spring, SpringBoot, JPA, MyBatis, iBatis, Junit5, Maven, Gradle, Django, Python
 
 - skill: Front-End
   description: HTML5/CSS3, JavaScript(ES6), jQuery
@@ -9,7 +9,7 @@
   description: PostgreSQL, MariaDB, MySQL, Oracle
 
 - skill: DevOps
-  description: AWS, GCP(Google Cloud Platform), Linux(Ubuntu)
+  description: AWS EC2, AWS RDS, Google Cloud Platform, Ubuntu, RedHat
 
 - skill: Others
   description: Git & GitHub, GitLab, Jira, Confluence, SVN

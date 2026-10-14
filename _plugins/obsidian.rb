@@ -6,6 +6,7 @@
 # - [[위키링크|별칭]] → 마크다운 링크. 사이트에 없는 페이지(비공개·미작성)는 링크 없이 글자만 남긴다
 # - > [!warning] 제목 콜아웃 → Just the Docs 콜아웃 ({: .warning-title })
 # - 인라인 수식 $...$ → kramdown이 인식하는 $$...$$
+# - 빈 줄 없이 제목·문단 바로 뒤에 오는 표 → 앞에 빈 줄 추가 (kramdown은 빈 줄이 없으면 표로 인식하지 않는다)
 #
 # wiki 원본 파일은 수정하지 않는다. 변환은 빌드 결과에만 반영된다.
 module ObsidianWiki
@@ -30,6 +31,7 @@ module ObsidianWiki
 
   WIKILINK = /(!?)\[\[([^\]|#\\]+)(?:#[^\]|\\]*)?(?:\\?\|([^\]]+))?\]\]/
   CODE_SPANS = /(^```.*?^```[ \t]*$|^~~~.*?^~~~[ \t]*$|`[^`\n]+`)/m
+  CODE_BLOCKS = /(^```.*?^```[ \t]*$|^~~~.*?^~~~[ \t]*$)/m
 
   def self.wiki_page?(page)
     page.relative_path.start_with?("#{WIKI_DIR}/") && page.ext == ".md"
@@ -73,7 +75,7 @@ module ObsidianWiki
 
       DOMAINS.each do |dir, (title, order)|
         parent = Jekyll::PageWithoutAFile.new(site, site.source, "#{WIKI_DIR}/#{dir}", "index.html")
-        parent.content = ""
+        parent.content = "<h1>#{title}</h1>"
         parent.data.merge!(
           "title" => title, "nav_order" => order, "has_children" => true,
           "layout" => "default", "permalink" => "/#{WIKI_DIR}/#{dir}/"
@@ -86,6 +88,9 @@ module ObsidianWiki
   end
 
   def self.convert(content, registry)
+    content = content.split(CODE_BLOCKS).each_with_index.map do |chunk, i|
+      i.odd? ? chunk : separate_tables(chunk)
+    end.join
     content.split(CODE_SPANS).each_with_index.map do |chunk, i|
       i.odd? ? chunk : convert_text(chunk, registry)
     end.join
@@ -100,6 +105,11 @@ module ObsidianWiki
       url ? "[#{label}](#{url})" : label
     end
     text.gsub(/(?<![$\\])\$(?![$\s])([^$\n]+?)(?<![\s\\])\$(?!\$)/) { "$$#{Regexp.last_match(1)}$$" }
+  end
+
+  # 표 머리 줄(| ... |)과 구분 줄(|---|) 앞에 빈 줄이 없으면 넣는다
+  def self.separate_tables(text)
+    text.gsub(/^([ \t]*[^|\s>].*)\n(?=[ \t]*\|.*\n[ \t]*\|?[ \t]*:?-{3,})/) { "#{Regexp.last_match(1)}\n\n" }
   end
 
   # > [!type] 제목  →  {: .type-title } + 제목 문단

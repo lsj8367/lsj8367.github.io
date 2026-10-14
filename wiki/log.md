@@ -37,3 +37,8 @@ append-only 작업 기록. 최근 항목: `grep "^## \[" wiki/log.md | tail -5`
 - 공개 페이지의 본인 경험 서술을 제거하고 career/에만 유지. 면접 질문 정리 노트 소스 페이지를 career/로 이동
 - career/personal 카탈로그를 각 폴더의 career-index, personal-index로 분리
 - Obsidian 문법은 `_plugins/obsidian.rb`가 빌드 시 변환
+
+## [2026-10-15] lint | 사이트 렌더링 (표·CI)
+- 빈 줄 없이 제목 바로 뒤에 온 표가 사이트에서 깨지던 문제: `_plugins/obsidian.rb`가 빌드 시 표 앞에 빈 줄을 넣도록 수정 (원본은 그대로)
+- 비교표의 빈 머리 칸을 "구분"으로 채움: [[인덱스 (Index)]], [[관계형 모델과 문서 모델 (Relational vs Document Model)]]
+- 도메인 목록 페이지에 h1 추가, "Edit this page" 링크 URL 인코딩 (CI 접근성·HTML 검증 실패 수정)

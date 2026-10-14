@@ -4,7 +4,7 @@ domain: data
 aliases: [Relational Model, Document Model, NoSQL, 임피던스 불일치, 객체 관계형 불일치, Impedance Mismatch]
 tags: [ddia, 데이터모델, nosql]
 sources: ["[[데이터 중심 애플리케이션 설계 2장 - 데이터 모델과 질의 언어]]"]
-updated: 2026-10-14
+updated: 2026-10-15
 ---
 # 관계형 모델과 문서 모델 (Relational vs Document Model)
 > 데이터를 테이블(관계)로 표현하는 관계형 모델과, JSON 같은 자기 완결적 문서로 표현하는 문서 모델의 비교.
@@ -27,7 +27,7 @@ updated: 2026-10-14
 - (보충) ORM(JPA/Hibernate 등)이 이 변환 코드를 줄여 주지만 차이를 완전히 숨기지는 못한다.
 
 ### 문서 모델과 비교 (보충)
-| | 관계형 | 문서 |
+| 구분 | 관계형 | 문서 |
 |---|---|---|
 | 일대다(트리 구조) | 여러 테이블 + 조인 | 문서 하나에 중첩. **지역성(locality)** 이 좋아 한 번에 읽기 |
 | 다대일·다대다 | 외래 키 + 조인으로 자연스러움 | 조인 지원이 약해 애플리케이션에서 처리 |

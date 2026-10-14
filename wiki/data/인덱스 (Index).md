@@ -4,14 +4,14 @@ domain: data
 aliases: [Index, B-Tree 인덱스, Hash 인덱스, 커버링 인덱스, Covering Index, 클러스터드 인덱스, Secondary Index]
 tags: [db, mysql, innodb]
 sources: ["[[면접 질문 정리 노트]]"]
-updated: 2026-10-14
+updated: 2026-10-15
 ---
 # 인덱스 (Index)
 > 테이블 전체를 훑지 않고 원하는 행을 빠르게 찾기 위한 보조 자료구조.
 
 ## 핵심
 ### 종류
-| | B-Tree(B+Tree) 인덱스 | Hash 인덱스 |
+| 구분 | B-Tree(B+Tree) 인덱스 | Hash 인덱스 |
 |---|---|---|
 | 구조 | 이진 트리를 일반화한 균형 트리 | 해시 함수로 key → 위치 |
 | 조회 | O(log n), **범위 검색에 강함** | `=` 조회 O(1). 충돌이 심하면 O(n) |

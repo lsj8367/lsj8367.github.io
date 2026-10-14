@@ -128,17 +128,8 @@ updated: YYYY-MM-DD
 
 ## 워크플로우
 
-### Ingest (대화형, 한 번에 소스 하나)
-1. 소스를 읽는다. 이미지가 있으면 텍스트를 먼저 읽고 필요한 이미지를 따로 본다.
-2. **핵심 내용 3~7개와 건드릴 wiki 페이지 후보(신규/수정)를 사람에게 제시하고, 무엇을 강조할지 묻는다. 승인 전 wiki를 수정하지 않는다.**
-3. 승인되면:
-   - `wiki/sources/`에 source 페이지 작성
-   - 관련 concept/entity/question 페이지 생성 또는 갱신 (충돌·갱신 콜아웃 포함)
-   - 페이지 간 상호 링크 추가 (양방향 확인)
-   - `index.md` 갱신 (career/personal은 각 폴더의 *-index.md)
-   - 필요하면 `overview.md` 갱신
-   - `log.md`에 항목 추가
-4. 변경한 페이지 목록을 보고한다.
+### Ingest
+**`wiki-ingest` 스킬(`.claude/skills/wiki-ingest/`)을 따른다.** 기본은 대화형(한 번에 소스 하나, 승인 후 반영)이고, `(보충)` 해소와 비공개 내용 분리 규칙이 들어 있다.
 
 ### Query
 1. `index.md`를 먼저 읽고 관련 페이지를 찾아 읽는다.

@@ -31,3 +31,9 @@ node_modules
 
 # Used for automated test results and metadata.
 tmp/
+
+# LLM wiki: 비공개 영역 (공개 저장소에 올리지 않음)
+raw/
+wiki/career/
+wiki/personal/
+.obsidian/

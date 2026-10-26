@@ -42,3 +42,17 @@ append-only 작업 기록. 최근 항목: `grep "^## \[" wiki/log.md | tail -5`
 - 빈 줄 없이 제목 바로 뒤에 온 표가 사이트에서 깨지던 문제: `_plugins/obsidian.rb`가 빌드 시 표 앞에 빈 줄을 넣도록 수정 (원본은 그대로)
 - 비교표의 빈 머리 칸을 "구분"으로 채움: [[인덱스 (Index)]], [[관계형 모델과 문서 모델 (Relational vs Document Model)]]
 - 도메인 목록 페이지에 h1 추가, "Edit this page" 링크 URL 인코딩 (CI 접근성·HTML 검증 실패 수정)
+
+## [2026-10-26] ingest | 면접 질문 정리 (GC 항목 재반영)
+- 원본 수정분: GC 승격 조건(age 임계값 초과 또는 Survivor 공간 부족), Minor·Major GC 모두 stop-the-world(Minor는 빠름) 추가
+- 수정: [[가비지 컬렉션 (Garbage Collection)]] — 해당 내용의 `(보충)` 해제, 충돌 콜아웃 제거, STW 단계 추가
+- 수정: 비공개 페이지 2개 (career-index 참고)
+
+## [2026-10-26] schema | 갱신 콜아웃 폐지
+- wiki는 최신 내용만 담고, 갱신 사실·날짜를 알리는 콜아웃은 달지 않는다. 변경 이력은 log에만
+- 수정: CLAUDE.md 작성 규칙, `.claude/skills/wiki-ingest/SKILL.md`
+
+## [2026-10-26] ingest | Resilience4j CircuitBreaker 설정값 (재반영)
+- 원본 수정분: `slidingWindowType` 설명에 "CLOSED 상태에서" 추가
+- 수정: [[Resilience4j]] — 충돌 콜아웃의 원본 인용 갱신. "회로를 닫는 기준"이라는 설명과 8·10행은 그대로라 충돌 유지
+- 수정: [[Resilience4j CircuitBreaker 설정값]] — 핵심 주장, 충돌/보완

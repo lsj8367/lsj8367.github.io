@@ -56,3 +56,9 @@ append-only 작업 기록. 최근 항목: `grep "^## \[" wiki/log.md | tail -5`
 - 원본 수정분: `slidingWindowType` 설명에 "CLOSED 상태에서" 추가
 - 수정: [[Resilience4j]] — 충돌 콜아웃의 원본 인용 갱신. "회로를 닫는 기준"이라는 설명과 8·10행은 그대로라 충돌 유지
 - 수정: [[Resilience4j CircuitBreaker 설정값]] — 핵심 주장, 충돌/보완
+
+## [2026-10-26] ingest | Resilience4j CircuitBreaker 설정값 (재반영 2)
+- 원본 수정분: `slidingWindowType` 설명 줄 삭제, 서킷 브레이커 3가지 상태(CLOSED/OPEN/HALF_OPEN) 추가
+- 수정: [[서킷 브레이커 (Circuit Breaker)]] — 상태 표와 핵심의 `(보충)` 일부 해소. 전이 조건 세부는 `(보충)` 유지
+- 수정: [[Resilience4j]] — 충돌 콜아웃의 원본 인용 갱신 (COUNT_BASED·TIME_BASED의 "회로가 닫힌다" 설명이 남아 충돌 유지)
+- 수정: [[Resilience4j CircuitBreaker 설정값]] — 요약, 핵심 주장, 충돌/보완

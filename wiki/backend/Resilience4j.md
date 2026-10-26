@@ -25,8 +25,8 @@ updated: 2026-10-26
 | `slowCallDurationThreshold` / `slowCallRateThreshold` (보충) | 느린 호출 기준 시간과 그 비율 임계치 | 60초 / 100% |
 
 > [!warning] 충돌
-> 원본 노트는 `slidingWindowType`을 "CLOSED 상태에서 다시 닫히게 할 기준"으로 설명하고, "window size만큼 성공/시간이 지나면 회로가 닫힌다"고 적었다.
-> 이 설정이 CLOSED 상태에서 쓰인다는 점은 맞다. 다만 공식 문서 기준으로 `slidingWindowType`은 **CLOSED 상태에서 실패율을 집계하는 범위**이고, 회로를 닫는 기준이 아니다(CLOSED는 이미 닫힌 상태). 회로가 다시 닫히는 것은 OPEN에서 `waitDurationInOpenState`가 지난 뒤 HALF_OPEN의 시험 호출(`permittedNumberOfCallsInHalfOpenState`) 결과로 결정된다. (보충)
+> 원본 노트는 `slidingWindowType`의 `COUNT_BASED`를 "window size만큼 성공하면 다시 회로가 닫힌다", `TIME_BASED`를 "window size만큼의 시간이 지나면 다시 회로가 닫힌다"고 적었다.
+> 공식 문서 기준으로 `slidingWindowType`은 **CLOSED 상태에서 실패율을 집계하는 범위**이고, 회로를 닫는 기준이 아니다. 회로가 다시 닫히는 것은 OPEN에서 `waitDurationInOpenState`가 지난 뒤 HALF_OPEN의 시험 호출(`permittedNumberOfCallsInHalfOpenState`) 결과로 결정된다([[서킷 브레이커 (Circuit Breaker)]]의 상태 참고). (보충)
 
 > [!warning] 충돌
 > 원본 노트는 "`minimumNumberOfCalls`를 `slidingWindowSize`보다 크거나 같게 설정하면 작동하지 않아 의미가 없다"고 적었다.
